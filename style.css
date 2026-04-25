@@ -1,12 +1,13 @@
 body{
     background-color: #a0cdfd;
     margin: 0;
+    align-items: stretch;
 }
 
 .container{
     width: 95%;
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 5px auto;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -60,6 +61,7 @@ header img{
     color: #2196F3;
     text-decoration: underline;
     font-size: 28pt;
+    margin-bottom: 0%;
 }
 
 .conteudo_central main h3{
@@ -95,6 +97,11 @@ header img{
 }
 .conteudo_central main th{
     text-align: center;
+}
+
+.conteudo_central main form{
+    margin-top: 0%;
+    margin-bottom: 20%;
 }
 
 .conteudo_central aside{
