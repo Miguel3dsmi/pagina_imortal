@@ -1,0 +1,150 @@
+body{
+    background-color: #a0cdfd;
+    margin: 0;
+}
+
+.container{
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
+
+.conteudo_central{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    flex: 1;
+    border: #000000 1px solid;
+
+}
+
+.conteudo_central nav{
+    flex: 1;
+    padding: 0%;
+    margin: 0%;
+}
+
+.conteudo_central nav ul{
+    list-style: none;
+    
+}
+
+.conteudo_central nav a{
+    background-color: #2196F3;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+
+}
+
+.conteudo_central main{
+    flex: 3.5;
+}
+
+.conteudo_central main h2{
+    color: #2196F3;
+    text-decoration: underline;
+    font-size: 28pt;
+}
+
+.conteudo_central main h3{
+    color: #2196F3;
+    font-size: 22pt;
+}
+
+.conteudo_central main img{
+    width: 27%;
+    height: auto;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.conteudo_central main p{
+    font-size: 14pt;
+    font-family: 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.conteudo_central main table{
+    border: #1d28c5 solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.conteudo_central main td, .conteudo_central main th{
+    border: #1d28c5 solid;
+}
+.conteudo_central main td{
+    text-align: left;
+}
+.conteudo_central main th{
+    text-align: center;
+}
+
+.conteudo_central aside{
+    flex: 1;
+}
+
+.conteudo_central aside div{
+    margin-bottom: 20%;
+
+}
+.conteudo_central aside h3{
+    color: rgb(148, 142, 142);
+    font-size: 24pt;
+    margin-bottom: 0%;
+}
+
+.conteudo_central aside p{
+    color: rgb(148, 142, 142);
+}
+
+.conteudo_central aside a{
+    display: block;
+    background-color: #2196F3;
+    color: #ffffff;
+    border: #000000 solid 1px;
+    padding-left: 10%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-right: 5%;
+    margin-top: 18%;
+    margin-left: 8%;
+    margin-right: 35%;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px 10%; 
+    align-items: center;
+    gap: 15px;
+}
+
+footer img{
+    width: 35px;
+    height: auto;
+}
+
+.footer_txt p{
+    margin: 0;
+    line-height: 1.3;
+    font-weight: bold;
+}
